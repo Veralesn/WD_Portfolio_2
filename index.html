@@ -9,23 +9,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@100..900&display=swap"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+  <!-- </header> -->
   <header class="header">
     <div class="container">
-      <div class="menu">
+      <nav class="nav">
         <div class="logo">wd</div>
-        <div class="nav_menu_1">
-          <ul id="slide-out" class="nav_menu_side">
-            <li class="nav_menu"><a href="#" class="nav_menu_item">Главная</a></li>
-            <li class="nav_menu"><a href="#" class="nav_menu_item">Об авторе</a></li>
-            <li class="nav_menu"><a href="#" class="nav_menu_item">Работы</a></li>
-            <li class="nav_menu"><a href="#" class="nav_menu_item">Процесс</a></li>
-            <li class="nav_menu"><a href="#" class="nav_menu_item">Контакты</a></li>
-          </ul>
+        <!-- Бургер-иконка -->
+        <div class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-      </div>
+        <!-- Основное меню -->
+        <ul class="nav__menu" id="navMenu">
+          <li class="nav_menu_li"><a href="#" class="nav_menu_item">Главная</a></li>
+          <li class="nav_menu_li"><a href="#" class="nav_menu_item">Об авторе</a></li>
+          <li class="nav_menu_li"><a href="#" class="nav_menu_item">Работы</a></li>
+          <li class="nav_menu_li"><a href="#" class="nav_menu_item">Процесс</a></li>
+          <li class="nav_menu_li"><a href="#" class="nav_menu_item">Контакты</a></li>
+        </ul>
+      </nav>
       <!-- Header_title -->
       <div class="header_title">
         <img class="header_img" src="img/первый экран.png" alt="Ноутбук">
@@ -36,6 +44,7 @@
           <button class="header_btn">Написать мне</button>
         </div>
       </div>
+    </div>
     </div>
   </header>
   <section>
@@ -238,20 +247,22 @@
     </div>
   </section>
   <!-- Footer -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer_flex">
-      <div class="footer_content">
-        <h3 class="text_h3 footer_h3">Иванов Иван</h3>
-        <p class="text_p footer_p"> &copy; 2018. Все права защищены.</p>
-      </div>
-      <div class="footer_icon">
-        <a href="#"><img src="img/vk-social-network-logo.svg" alt="В контакте"></a>
-        <a href="#"><img src="img/vk-social-network-logo.svg" alt="В контакте"></a>
-        <a href="#"><img src="img/vk-social-network-logo.svg" alt="В контакте"></a>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_flex">
+        <div class="footer_content">
+          <h3 class="text_h3 footer_h3">Иванов Иван</h3>
+          <p class="text_p footer_p"> &copy; 2018. Все права защищены.</p>
+        </div>
+        <div class="footer_icon">
+          <a href="#"><img src="img/vk-social-network-logo.svg" alt="В контакте"></a>
+          <a href="#"><img src="img/vk-social-network-logo.svg" alt="В контакте"></a>
+          <a href="#"><img src="img/vk-social-network-logo.svg" alt="В контакте"></a>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
