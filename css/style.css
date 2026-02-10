@@ -470,7 +470,7 @@ align-items: center
     flex-direction: column;
     padding: 80px 20px 20px;
     box-shadow: -2px 0 10px rgba(0,0,0,0.1);
-    transition: right 0.3s ease;
+    transition: right 0.8s ease;
   }
   .nav__menu.active {
     right: 0;
