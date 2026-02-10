@@ -150,7 +150,6 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 121px 0 0 13px;
-
 }
 .about_p {
   max-width: 516px;
@@ -272,11 +271,6 @@ video {
   justify-content: center;
   align-items: center;
   position: relative;
-  /* width: 480px;
-  height: 480px;
-  background-image: url(../img/card_1.png);
-  background-size: cover;
-  position: relative; */
 }
 .card-view-icon {
   position: absolute;
@@ -426,6 +420,9 @@ video {
 .project_grid {
   grid-template-columns: repeat(2, 1fr);
 }
+.footer_flex {
+  padding: 50px 20px;
+}
 }
 
 @media only screen and (max-width: 992px) {
@@ -508,6 +505,23 @@ align-items: center
 .project_grid {
   grid-template-columns: repeat(1, 1fr);
 }
+.clients_flex {
+  margin-bottom: 70px;
+}
+.form_flex_content {
+  padding: 70px 15px;
+}
+.form_inner {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+.form_inner input {
+  width: 100%;
+  height: 50px;
+  padding: 18px 20px;
+}
 }
 @media screen and (max-width: 380px) {
   .numbers_items {
@@ -516,5 +530,4 @@ align-items: center
 .progress_bar {
   width: 280px;
 }
-
 }
