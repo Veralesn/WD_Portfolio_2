@@ -149,13 +149,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 121px 0 0 13px;
+  padding: 121px 0 95px 13px;
 }
 .about_p {
   max-width: 516px;
   text-align: center;
   margin-top: 39px;
-  padding-bottom: 95px;
 }
 /* Project */
 .numbers {
@@ -458,7 +457,7 @@ align-items: center
 }
 
 @media screen and (max-width: 768px) {
-    .burger {
+  .burger {
     display: flex;
   }
   .nav__menu {
@@ -486,11 +485,33 @@ align-items: center
   .burger.active span:nth-child(3) {
     transform: rotate(45deg) translate(-5px, -6px);
   }
+  .title_h1 {
+    text-align: center;
+  }
+  .header_title_content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .text_p {
+    text-align: center;
+  }
+  .about_me {
+    padding: 70px 15px;
+  }
+  .about_p {
+    padding: 0;
+  }
   .numbers_items {
     grid-template-columns: repeat(2, 1fr);
   }
   .container_skills_flex {
     margin-bottom: 70px;
+  }
+  .title_skill_h2 {
+    text-align: center;
+  }
+  .progress_bar {
+    width: 30vh;
   }
   .title_skill_h2 {
     margin-top: 70px;
@@ -524,6 +545,9 @@ align-items: center
 }
 }
 @media screen and (max-width: 380px) {
+  .header {
+    max-height: 1000px;
+  }
   .numbers_items {
     grid-template-columns: repeat(1, 1fr); 
 }
